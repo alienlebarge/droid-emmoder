@@ -1,4 +1,10 @@
-/.nova
+# system files
 /.DS_Store
+
+# Panic Nova IDE files
+/.nova
+
+# VIM files
 /.swp
 /.swo
+/.swn

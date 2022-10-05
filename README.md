@@ -1,6 +1,6 @@
 # Droid Emmoder (WIP)
 
-👷‍♂️ *This is a work in progress !*
+👷‍♂️ **This is a work in progress !**
 
 _Emmoder_ pronounced `\ɑ̃.mɔ.de\` means _to initiate_, _to set in motion_, _to start_ in Swiss-French patois.
 

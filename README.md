@@ -18,7 +18,7 @@ It required the following controllers:
 
 ## Install
 
-Grab the save the following `droid.ini` files on a SD card and load it in yout Droid Master module.
+Grab the save the following [`droid.ini`](.droid.ini) files on a SD card and load it in your Droid Master module.
 
 ## Find other Droid patch on Github
 

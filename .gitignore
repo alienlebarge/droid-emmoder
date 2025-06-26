@@ -8,3 +8,6 @@
 /.swp
 /.swo
 /.swn
+
+# Documentation and resources (not versioned)
+/doc/

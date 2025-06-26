@@ -85,9 +85,32 @@ The `droid.ini` file is organized into functional sections:
 Since this is a hardware configuration project, there are no traditional build/test/lint commands. Development involves:
 
 1. **Edit Configuration**: Modify `droid.ini` directly - all configuration and inline documentation is contained in this single file
-2. **Reference Examples**: Use `doc/patches/` for inspiration and `doc/manual/droid-patch-snippets-blue-6.txt` for circuit syntax examples
-3. **Hardware Testing**: Load configuration onto Droid hardware via SD card
-4. **Version Control**: Use git for tracking changes to the configuration
+2. **Update User Manual**: **CRITICAL** - When making changes to `droid.ini`, always update the corresponding user manual in `README.md` to reflect the changes. The README.md contains the French user manual that must be kept in sync with the actual configuration
+3. **Reference Examples**: Use `doc/patches/` for inspiration and `doc/manual/droid-patch-snippets-blue-6.txt` for circuit syntax examples
+4. **Hardware Testing**: Load configuration onto Droid hardware via SD card
+5. **Version Control**: Use git for tracking changes to the configuration
+
+### Documentation Language Requirements
+
+**CRITICAL**: All documentation and comments in this project MUST be written in English:
+
+- **README.md**: The user manual must be written entirely in English
+- **droid.ini comments**: All inline comments and documentation within the configuration file must be in English
+- **Code comments**: Any additional code comments or documentation must be in English
+- **Commit messages**: Git commit messages should be written in English
+
+This ensures consistency and accessibility for the international Droid community.
+
+### Documentation Synchronization
+
+**IMPORTANT**: The `README.md` file contains a comprehensive user manual that mirrors the functionality defined in `droid.ini`. Any changes to the configuration MUST be reflected in the user manual:
+
+- **Hardware connections** (I/O mappings, controller assignments)
+- **Control functions** (button mappings, potentiometer functions)
+- **Workflow instructions** (page navigation, sequencer operation)
+- **Feature descriptions** (mute system, clock management, etc.)
+
+This ensures users always have accurate documentation that matches the actual hardware behavior.
 
 ### Useful Resources for Development
 - **Circuit Reference**: Check `doc/manual/droid-patch-snippets-blue-6.txt` for exact syntax and parameters of any circuit

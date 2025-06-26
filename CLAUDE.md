@@ -63,6 +63,7 @@ The `droid.ini` file is organized into functional sections:
 - Parameters are defined as `parameter = value` pairs
 - Internal variables use `_VARIABLE_NAME` convention
 - Hardware references use module notation (e.g., `P1.1`, `B2.1`, `G1.1`)
+- **Section Separators**: Use `# -------------------------------------------------` format for section headers to ensure proper recognition by code editors (do NOT use `=` symbols as they break editor section folding)
 - **Official Documentation**: Follow the Droid Eurorack module documentation at https://shop.dermannmitdermaschine.de/pages/downloads for proper .ini configuration file syntax and circuit specifications
 - **Firmware Version**: This configuration targets Droid firmware blue-6 - refer to the blue-6 user manual for the most current circuit specifications
 - **Local Resources**: The `doc/` directory contains comprehensive local documentation (not versioned in git):
